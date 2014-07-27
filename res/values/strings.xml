@@ -2,7 +2,11 @@
 <resources>
 
     <string name="app_name">MythQuiz</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="question_text">在雨中快速跑会比慢慢走淋更少的雨</string>
     <string name="action_settings">Settings</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="correct_toast">对</string>
+    <string name="incorrect_toast">错</string>
 
 </resources>
