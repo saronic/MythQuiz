@@ -2,6 +2,7 @@ package com.ytvc.training.mythquiz;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,11 +24,16 @@ public class MainActivity extends Activity {
 			new TrueFalse(R.string.question_train, false) };
 
 	private int mCurrentIndex = 0;
+	private static final String TAG = "MainActivity";
+	private static final String KEY_INDEX = "index";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		if (savedInstanceState != null) {
+			mCurrentIndex = savedInstanceState.getInt(KEY_INDEX, 0);
+		}
 		
 		mQuestionTextView = (TextView) findViewById(R.id.question_textview);
 		updateQuestion();
@@ -59,6 +65,13 @@ public class MainActivity extends Activity {
 				
 			}
 		});
+	}
+	
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+		Log.i(TAG, "onSaveInstanceState");
+		outState.putInt(KEY_INDEX, mCurrentIndex);
 	}
 
 	@Override
