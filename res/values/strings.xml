@@ -14,5 +14,9 @@
     <string name="question_train">在火车轨道放一枚硬币会使火车脱轨</string>
     <string name="question_cat">猫是不可能象羊那样成群的生活</string>
     <string name="question_alcohol">喝酒可以让身体热起来</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="warning_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="judgment_toast">Cheating is wrong.</string>
 
 </resources>
