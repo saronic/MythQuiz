@@ -8,5 +8,11 @@
     <string name="false_button">False</string>
     <string name="correct_toast">对</string>
     <string name="incorrect_toast">错</string>
+    <string name="next_button">下一个问题</string>
+    <string name="question_rain">在雨中快速跑会比慢慢走淋更少的雨</string>
+    <string name="question_gas">在加油站用手机打电话会引起爆炸</string>
+    <string name="question_train">在火车轨道放一枚硬币会使火车脱轨</string>
+    <string name="question_cat">猫是不可能象羊那样成群的生活</string>
+    <string name="question_alcohol">喝酒可以让身体热起来</string>
 
 </resources>
