@@ -1,5 +1,9 @@
 package com.ytvc.training.mythquiz;
-
+/**
+ * 
+ * @author li
+ * 从github导入后改了如下内容
+ */
 public class TrueFalse {
 	private int mQuestion;
 	private boolean mTrueQuestion;
