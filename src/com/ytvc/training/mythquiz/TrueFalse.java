@@ -3,6 +3,7 @@ package com.ytvc.training.mythquiz;
  * 
  * @author li
  * 从github导入后改了如下内容
+ * 再次测试
  */
 public class TrueFalse {
 	private int mQuestion;
